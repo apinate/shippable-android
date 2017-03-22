@@ -6,7 +6,7 @@ python:
 build:
   pre_ci:
     # Always pull the latest base image to avoid any cached images on the host
-    - docker pull drydock/u12:prod
+    - docker pull drydock/u16:prod
     - docker build --rm -t dramler/shippable:android .
 
   pre_ci_boot:
