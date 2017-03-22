@@ -1,4 +1,4 @@
-FROM drydock/u16:prod
+FROM drydock/u16:latest
 
 ADD . /shippable-ci
 
